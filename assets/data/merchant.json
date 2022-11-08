@@ -1,0 +1,18 @@
+[
+    {
+        "merchantId": 1,
+        "merchantName": "Merchant 1",
+        "merchantAddress": "Merchant 1 Address",
+        "long": "12.3456789",
+        "lat": "98.7654321",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "merchantId": 2,
+        "merchantName": "Merchant 2",
+        "merchantAddress": "Merchant 2 Address",
+        "long": "12.3456789",
+        "lat": "98.7654321",
+        "image": "https://via.placeholder.com/150"
+    }
+]
