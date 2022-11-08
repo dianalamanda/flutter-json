@@ -115,7 +115,7 @@ class MerchantModel {
 }
 
 Future<List<MerchantModel>> ReadJsonData() async {
-  final jsondata = await rootBundle.loadString('data/merchant.json');
+  final jsondata = await rootBundle.loadString('assets/data/merchant.json');
   final List<dynamic> list = json.decode(jsondata) as List<dynamic>;
   return list.map((e) => MerchantModel.fromJson(e)).toList();
 }
